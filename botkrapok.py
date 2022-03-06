@@ -6,7 +6,7 @@ from discord.ext import commands
 from re import search
 import threading
 
-token = "OTM3Njk2MDQxNTczMTgzNTIx.YffffQ.A2LfMJeRS8N1LVeH0RKfbZMTg3g"
+token = "OTQzNDEzNzc3NjAzMzc5MjUx.YgysjA.1NMsEYZceH8qbraDAkvD8u-dQcY"
 
 
 
@@ -239,7 +239,7 @@ async def sms(ctx, phone, amount:int):
     
 @bot.command()
 async def help(ctx):
-	emBed = discord.Embed(title="Bot BY: Hee",description="วิธิใช้",color=0xff4612)
+	emBed = discord.Embed(title="Bot BY: Victor#0001",description="วิธิใช้",color=0xff4612)
 	emBed.add_field(name="#_#",value="+sms [เบอร์] [จำนวน]")
 	
 	
